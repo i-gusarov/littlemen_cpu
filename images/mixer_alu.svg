@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Создано Microsoft Visio, экспорт SVG mixer_alu.svg Mixer ALU -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="4.33071in" height="7.48031in" viewBox="0 0 311.811 538.583" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st15">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#eaeff5;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st2 {fill:#000000;font-family:Calibri;font-size:1.5em}
+		.st3 {marker-end:url(#mrkr13-9);stroke:#00b050;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st4 {fill:#00b050;fill-opacity:1;stroke:#00b050;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st5 {fill:#000000;font-family:Calibri;font-size:1.00001em}
+		.st6 {font-size:1em}
+		.st7 {marker-end:url(#mrkr13-20);stroke:#c00000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st8 {fill:#c00000;fill-opacity:1;stroke:#c00000;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st9 {marker-end:url(#mrkr13-27);stroke:#3f3f3f;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st10 {fill:#3f3f3f;fill-opacity:1;stroke:#3f3f3f;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st11 {stroke:#3f3f3f;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st12 {marker-start:url(#mrkr13-43);stroke:#c00000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st13 {marker-start:url(#mrkr13-54);stroke:#3f3f3f;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st14 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st15 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr13-9" class="st4" refX="-10.56" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-3.52,-3.52) "/>
+		</marker>
+		<marker id="mrkr13-20" class="st8" refX="-10.56" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-3.52,-3.52) "/>
+		</marker>
+		<marker id="mrkr13-27" class="st10" refX="-10.56" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-3.52,-3.52) "/>
+		</marker>
+		<marker id="mrkr13-43" class="st8" refX="10.2" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(3.52) "/>
+		</marker>
+		<marker id="mrkr13-54" class="st10" refX="10.2" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(3.52) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>Mixer ALU</title>
+		<g id="shape1-1" transform="translate(85.0394,-226.772)">
+			<title>Скругленный прямоугольник.0</title>
+			<desc>Mixer</desc>
+			<path d="M106.3 538.58 A7.08667 7.08667 -180 0 0 113.39 531.5 L113.39 460.63 A7.08667 7.08667 -180 0 0 106.3 453.54 L7.09
+						 453.54 A7.08667 7.08667 -180 0 0 0 460.63 L0 531.5 A7.08667 7.08667 -180 0 0 7.09 538.58 L106.3 538.58 Z"
+					class="st1"/>
+			<text x="35.42" y="501.46" class="st2">Mixer</text>		</g>
+		<g id="shape2-4" transform="translate(301.331,807.181) rotate(179.607)">
+			<title>Лист.2</title>
+			<desc>opcodes</desc>
+			<path d="M0 538.58 L88.65 538.58" class="st3"/>
+			<text x="-66.91" y="-542.86" transform="rotate(-180)" class="st5">opcodes</text>		</g>
+		<g id="shape3-11" transform="translate(85.0394,-85.0394)">
+			<title>Скругленный прямоугольник.3</title>
+			<desc>Processing devices</desc>
+			<path d="M106.3 538.58 A7.08667 7.08667 -180 0 0 113.39 531.5 L113.39 460.63 A7.08667 7.08667 -180 0 0 106.3 453.54 L7.09
+						 453.54 A7.08667 7.08667 -180 0 0 0 460.63 L0 531.5 A7.08667 7.08667 -180 0 0 7.09 538.58 L106.3 538.58 Z"
+					class="st1"/>
+			<text x="17.81" y="490.66" class="st2">Processing <tspan x="29.55" dy="1.2em" class="st6">devices</tspan></text>		</g>
+		<g id="shape4-15" transform="translate(680.315,311.811) rotate(90)">
+			<title>Лист.4</title>
+			<desc>instructions</desc>
+			<path d="M0 538.58 L46.13 538.58" class="st7"/>
+			<text x="-534.23" y="30.06" transform="rotate(-90)" class="st5">instructions</text>		</g>
+		<g id="shape5-22" transform="translate(28.3465,-255.118)">
+			<title>Лист.5</title>
+			<desc>data</desc>
+			<path d="M0 538.58 L46.13 538.58" class="st9"/>
+			<text x="17.44" y="533.68" class="st5">data</text>		</g>
+		<g id="shape6-29" transform="translate(680.315,453.543) rotate(90)">
+			<title>Лист.6</title>
+			<desc>result</desc>
+			<path d="M0 538.58 L46.13 538.58" class="st9"/>
+			<text x="-523.49" y="30.06" transform="rotate(-90)" class="st5">result</text>		</g>
+		<g id="shape7-35" transform="translate(28.3465,-28.3465)">
+			<title>Лист.7</title>
+			<path d="M113.39 538.58 L0 538.58 L0 311.81" class="st11"/>
+		</g>
+		<g id="shape8-38" transform="translate(680.315,170.079) rotate(90)">
+			<title>Лист.8</title>
+			<desc>instructions</desc>
+			<path d="M10.2 538.58 L10.56 538.58 L56.69 538.58" class="st12"/>
+			<text x="-533.44" y="39.03" transform="rotate(-90)" class="st5">instructions</text>		</g>
+		<g id="shape9-45" transform="translate(85.0394,-368.504)">
+			<title>Скругленный прямоугольник.9</title>
+			<desc>Registers, fast math</desc>
+			<path d="M106.3 538.58 A7.08667 7.08667 -180 0 0 113.39 531.5 L113.39 460.63 A7.08667 7.08667 -180 0 0 106.3 453.54 L7.09
+						 453.54 A7.08667 7.08667 -180 0 0 0 460.63 L0 531.5 A7.08667 7.08667 -180 0 0 7.09 538.58 L106.3 538.58 Z"
+					class="st1"/>
+			<text x="21.11" y="490.66" class="st2">Registers,  <tspan x="21.82" dy="1.2em" class="st6">fast math</tspan></text>		</g>
+		<g id="shape12-49" transform="translate(680.315,28.3464) rotate(90)">
+			<title>Лист.12</title>
+			<desc>result</desc>
+			<path d="M10.2 538.58 L10.56 538.58 L56.69 538.58" class="st13"/>
+			<text x="-523.49" y="30.06" transform="rotate(-90)" class="st5">result</text>		</g>
+		<g id="shape13-56" transform="translate(28.3465,-283.465)">
+			<title>Лист.13</title>
+			<path d="M113.39 311.81 L0 311.81 L0 538.58" class="st14"/>
+		</g>
+		<g id="shape14-59" transform="translate(28.3465,-283.465)">
+			<title>Лист.14</title>
+			<desc>data</desc>
+			<path d="M0 538.58 L46.13 538.58" class="st9"/>
+			<text x="17.44" y="533.68" class="st5">data</text>		</g>
+	</g>
+</svg>

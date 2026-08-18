@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Создано Microsoft Visio, экспорт SVG opcode_imm.svg Opcode imm -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="7.08661in" height="4.56693in" viewBox="0 0 510.236 328.819" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st9">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#cafebe;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st2 {fill:#000000;font-family:Calibri;font-size:1.5em}
+		.st3 {baseline-shift:-32.4951%;font-size:0.649902em}
+		.st4 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st5 {fill:#000000;font-family:Calibri;font-size:0.833336em}
+		.st6 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st7 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st8 {fill:#000000;font-family:Calibri;font-size:1.99999em}
+		.st9 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g>
+		<title>Opcode imm</title>
+		<g id="shape1-1" transform="translate(297.638,-226.772)">
+			<title>Прямоугольник.158</title>
+			<desc>F</desc>
+			<rect x="0" y="300.472" width="28.3465" height="28.3465" class="st1"/>
+			<text x="10.04" y="320.05" class="st2">F</text>		</g>
+		<g id="shape2-4" transform="translate(269.291,-226.772)">
+			<title>Прямоугольник.2</title>
+			<desc>I0</desc>
+			<rect x="0" y="300.472" width="28.3465" height="28.3465" class="st1"/>
+			<text x="8.94" y="320.05" class="st2">I<tspan dy="-0.284em" class="st3">0</tspan></text>		</g>
+		<g id="shape3-8" transform="translate(297.638,-255.118)">
+			<title>Прямоугольник.3</title>
+			<desc>0</desc>
+			<rect x="0" y="314.646" width="28.3465" height="14.1732" class="st4"/>
+			<text x="11.64" y="324.73" class="st5">0</text>		</g>
+		<g id="shape4-11" transform="translate(269.291,-255.118)">
+			<title>Прямоугольник.4</title>
+			<desc>1</desc>
+			<rect x="0" y="314.646" width="28.3465" height="14.1732" class="st4"/>
+			<text x="11.64" y="324.73" class="st5">1</text>		</g>
+		<g id="shape5-14" transform="translate(240.945,-255.118)">
+			<title>Прямоугольник.5</title>
+			<desc>2</desc>
+			<rect x="0" y="314.646" width="28.3465" height="14.1732" class="st4"/>
+			<text x="11.64" y="324.73" class="st5">2</text>		</g>
+		<g id="shape6-17" transform="translate(212.598,-255.118)">
+			<title>Прямоугольник.6</title>
+			<desc>3</desc>
+			<rect x="0" y="314.646" width="28.3465" height="14.1732" class="st4"/>
+			<text x="11.64" y="324.73" class="st5">3</text>		</g>
+		<g id="shape7-20" transform="translate(240.945,-226.772)">
+			<title>Прямоугольник.7</title>
+			<desc>I1</desc>
+			<rect x="0" y="300.472" width="28.3465" height="28.3465" class="st1"/>
+			<text x="8.94" y="320.05" class="st2">I<tspan dy="-0.284em" class="st3">1</tspan></text>		</g>
+		<g id="shape8-24" transform="translate(212.598,-226.772)">
+			<title>Прямоугольник.8</title>
+			<desc>I2</desc>
+			<rect x="0" y="300.472" width="28.3465" height="28.3465" class="st1"/>
+			<text x="8.94" y="320.05" class="st2">I<tspan dy="-0.284em" class="st3">2</tspan></text>		</g>
+		<g id="shape9-28" transform="translate(184.252,-226.772)">
+			<title>Прямоугольник.9</title>
+			<desc>I3</desc>
+			<rect x="0" y="300.472" width="28.3465" height="28.3465" class="st1"/>
+			<text x="8.94" y="320.05" class="st2">I<tspan dy="-0.284em" class="st3">3</tspan></text>		</g>
+		<g id="shape10-32" transform="translate(42.5197,-226.772)">
+			<title>Прямоугольник.10</title>
+			<desc>A61</desc>
+			<rect x="0" y="300.472" width="28.3465" height="28.3465" class="st1"/>
+			<text x="3.04" y="320.05" class="st2">A<tspan dy="-0.284em" class="st3">61</tspan></text>		</g>
+		<g id="shape11-36" transform="translate(14.1732,-226.772)">
+			<title>Прямоугольник.11</title>
+			<desc>0</desc>
+			<rect x="0" y="300.472" width="28.3465" height="28.3465" class="st1"/>
+			<text x="9.61" y="320.05" class="st2">0</text>		</g>
+		<g id="shape12-39" transform="translate(184.252,-255.118)">
+			<title>Прямоугольник.12</title>
+			<desc>4</desc>
+			<rect x="0" y="314.646" width="28.3465" height="14.1732" class="st4"/>
+			<text x="11.64" y="324.73" class="st5">4</text>		</g>
+		<g id="shape13-42" transform="translate(70.8661,-255.118)">
+			<title>Прямоугольник.13</title>
+			<desc>...</desc>
+			<rect x="0" y="314.646" width="28.3465" height="14.1732" class="st4"/>
+			<text x="10.39" y="324.73" class="st5">...</text>		</g>
+		<g id="shape14-45" transform="translate(42.5197,-255.118)">
+			<title>Прямоугольник.14</title>
+			<desc>62</desc>
+			<rect x="0" y="314.646" width="28.3465" height="14.1732" class="st4"/>
+			<text x="9.1" y="324.73" class="st5">62</text>		</g>
+		<g id="shape15-48" transform="translate(14.1732,-255.118)">
+			<title>Прямоугольник.15</title>
+			<desc>63</desc>
+			<rect x="0" y="314.646" width="28.3465" height="14.1732" class="st4"/>
+			<text x="9.1" y="324.73" class="st5">63</text>		</g>
+		<g id="shape16-51" transform="translate(70.8661,-226.772)">
+			<title>Прямоугольник.17</title>
+			<desc>...</desc>
+			<rect x="0" y="300.472" width="28.3465" height="28.3465" class="st4"/>
+			<text x="10.39" y="317.65" class="st5">...</text>		</g>
+		<g id="shape38-54" transform="translate(153.071,159.369) rotate(-90)">
+			<title>Боковая коленчатая выноска</title>
+			<desc>Fetch argument</desc>
+			<path d="M43.15 158.74 L14.8 158.74 L14.8 187.09" class="st6"/>
+			<text x="191.09" y="-9.4" transform="rotate(90)" class="st2">Fetch argument</text>		</g>
+		<g id="shape18-58" transform="translate(304.724,-212.598)">
+			<title>Лист.18</title>
+			<path d="M0 328.82 L14.17 328.82" class="st6"/>
+		</g>
+		<g id="shape19-61" transform="translate(49.6063,-212.598)">
+			<title>Лист.19</title>
+			<path d="M0 328.82 L99.21 328.82" class="st6"/>
+		</g>
+		<g id="shape20-64" transform="translate(21.2598,-212.598)">
+			<title>Лист.20</title>
+			<path d="M0 328.82 L14.17 328.82" class="st6"/>
+		</g>
+		<g id="shape40-67" transform="translate(153.071,258.581) rotate(-90)">
+			<title>Боковая коленчатая выноска.40</title>
+			<desc>Device address</desc>
+			<path d="M142.36 -53.86 L14.8 -53.86 L14.8 187.09" class="st6"/>
+			<text x="191.09" y="-9.4" transform="rotate(90)" class="st2">Device address</text>		</g>
+		<g id="shape41-71" transform="translate(153.071,308.188) rotate(-90)">
+			<title>Боковая коленчатая выноска.41</title>
+			<desc>Sign bit, always 0</desc>
+			<path d="M191.97 -124.72 L14.8 -124.72 L14.8 187.09" class="st6"/>
+			<text x="191.09" y="-9.4" transform="rotate(90)" class="st2">Sign bit, always 0</text>		</g>
+		<g id="shape23-75" transform="translate(14.1732,-283.465)">
+			<title>Текст (12 пт)</title>
+			<desc>Opcode bits layout</desc>
+			<rect x="0" y="300.472" width="467.717" height="28.3465" class="st7"/>
+			<text x="142.15" y="321.85" class="st8">Opcode bits layout</text>		</g>
+		<g id="shape24-78" transform="translate(155.906,-226.772)">
+			<title>Прямоугольник.24</title>
+			<desc>I4</desc>
+			<rect x="0" y="300.472" width="28.3465" height="28.3465" class="st1"/>
+			<text x="8.94" y="320.05" class="st2">I<tspan dy="-0.284em" class="st3">4</tspan></text>		</g>
+		<g id="shape25-82" transform="translate(127.559,-226.772)">
+			<title>Прямоугольник.25</title>
+			<desc>A5</desc>
+			<rect x="0" y="300.472" width="28.3465" height="28.3465" class="st1"/>
+			<text x="6" y="320.05" class="st2">A<tspan dy="-0.284em" class="st3">5</tspan></text>		</g>
+		<g id="shape26-86" transform="translate(99.2126,-226.772)">
+			<title>Прямоугольник.26</title>
+			<desc>A6</desc>
+			<rect x="0" y="300.472" width="28.3465" height="28.3465" class="st1"/>
+			<text x="6" y="320.05" class="st2">A<tspan dy="-0.284em" class="st3">6</tspan></text>		</g>
+		<g id="shape27-90" transform="translate(155.906,-255.118)">
+			<title>Прямоугольник.27</title>
+			<desc>5</desc>
+			<rect x="0" y="314.646" width="28.3465" height="14.1732" class="st4"/>
+			<text x="11.64" y="324.73" class="st5">5</text>		</g>
+		<g id="shape28-93" transform="translate(127.559,-255.118)">
+			<title>Прямоугольник.28</title>
+			<desc>6</desc>
+			<rect x="0" y="314.646" width="28.3465" height="14.1732" class="st4"/>
+			<text x="11.64" y="324.73" class="st5">6</text>		</g>
+		<g id="shape29-96" transform="translate(99.2126,-255.118)">
+			<title>Прямоугольник.29</title>
+			<desc>7</desc>
+			<rect x="0" y="314.646" width="28.3465" height="14.1732" class="st4"/>
+			<text x="11.64" y="324.73" class="st5">7</text>		</g>
+		<g id="shape30-99" transform="translate(162.992,-212.598)">
+			<title>Лист.30</title>
+			<path d="M0 328.82 L127.56 328.82" class="st6"/>
+		</g>
+		<g id="shape39-102" transform="translate(153.071,208.975) rotate(-90)">
+			<title>Боковая коленчатая выноска.39</title>
+			<desc>Immediate data</desc>
+			<path d="M92.75 73.7 L14.8 73.7 L14.8 187.09" class="st6"/>
+			<text x="191.09" y="-9.4" transform="rotate(90)" class="st2">Immediate data</text>		</g>
+	</g>
+</svg>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Создано Microsoft Visio, экспорт SVG page_mapping.svg Page mapping -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="8.66142in" height="2.3622in" viewBox="0 0 623.622 170.079" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st7">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {marker-end:url(#mrkr13-6);stroke:#c00000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st2 {fill:#c00000;fill-opacity:1;stroke:#c00000;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st3 {fill:#000000;font-family:Calibri;font-size:1.00001em}
+		.st4 {stroke:#c00000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3}
+		.st5 {fill:#eaeff5;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st6 {fill:#000000;font-family:Calibri;font-size:1.5em}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr13-6" class="st2" refX="-10.56" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-3.52,-3.52) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>Page mapping</title>
+		<g id="shape1-1" transform="translate(474.803,14.1732) rotate(90)">
+			<title>Лист.1</title>
+			<desc>instructions</desc>
+			<path d="M0 170.08 L31.96 170.08" class="st1"/>
+			<text x="-165.72" y="23.44" transform="rotate(-90)" class="st3">instructions</text>		</g>
+		<g id="shape3-8" transform="translate(28.3465,-113.386)">
+			<title>Лист.3</title>
+			<desc>primary instruction bus</desc>
+			<path d="M0 170.08 L566.93 170.08" class="st4"/>
+			<text x="4" y="165.18" class="st3">primary instruction bus</text>		</g>
+		<g id="shape23-12" transform="translate(240.945,-56.6929)">
+			<title>Скругленный прямоугольник.23</title>
+			<desc>Adder</desc>
+			<path d="M120.47 170.08 A7.08667 7.08667 -180 0 0 127.56 162.99 L127.56 148.82 A7.08667 7.08667 -180 0 0 120.47 141.73
+						 L7.09 141.73 A7.08667 7.08667 -180 0 0 -0 148.82 L0 162.99 A7.08667 7.08667 -180 0 0 7.09 170.08 L120.47
+						 170.08 Z" class="st5"/>
+			<text x="41.5" y="161.31" class="st6">Adder</text>		</g>
+		<g id="shape48-15" transform="translate(56.6929,-56.6929)">
+			<title>Скругленный прямоугольник.48</title>
+			<desc>Address filter</desc>
+			<path d="M120.47 170.08 A7.08667 7.08667 -180 0 0 127.56 162.99 L127.56 148.82 A7.08667 7.08667 -180 0 0 120.47 141.73
+						 L7.09 141.73 A7.08667 7.08667 -180 0 0 -0 148.82 L0 162.99 A7.08667 7.08667 -180 0 0 7.09 170.08 L120.47
+						 170.08 Z" class="st5"/>
+			<text x="14.92" y="161.31" class="st6">Address filter</text>		</g>
+		<g id="shape49-18" transform="translate(425.197,269.291) rotate(180)">
+			<title>Лист.49</title>
+			<path d="M0 170.08 L46.13 170.08" class="st1"/>
+		</g>
+		<g id="shape50-23" transform="translate(290.551,56.6929) rotate(90)">
+			<title>Лист.50</title>
+			<path d="M0 170.08 L17.79 170.08" class="st1"/>
+		</g>
+		<g id="shape51-28" transform="translate(425.197,-56.6929)">
+			<title>Скругленный прямоугольник.51</title>
+			<desc>Pointer register</desc>
+			<path d="M120.47 170.08 A7.08667 7.08667 -180 0 0 127.56 162.99 L127.56 148.82 A7.08667 7.08667 -180 0 0 120.47 141.73
+						 L7.09 141.73 A7.08667 7.08667 -180 0 0 -0 148.82 L0 162.99 A7.08667 7.08667 -180 0 0 7.09 170.08 L120.47
+						 170.08 Z" class="st5"/>
+			<text x="6.86" y="161.31" class="st6">Pointer register</text>		</g>
+		<g id="shape52-31" transform="translate(659.055,56.6929) rotate(90)">
+			<title>Лист.52</title>
+			<path d="M0 170.08 L17.79 170.08" class="st1"/>
+		</g>
+		<g id="shape53-36" transform="translate(184.252,-70.8661)">
+			<title>Лист.53</title>
+			<path d="M0 170.08 L46.13 170.08" class="st1"/>
+		</g>
+		<g id="shape54-41" transform="translate(28.3465,-28.3465)">
+			<title>Лист.54</title>
+			<desc>secondary instruction bus</desc>
+			<path d="M0 170.08 L566.93 170.08" class="st4"/>
+			<text x="4" y="165.18" class="st3">secondary instruction bus</text>		</g>
+		<g id="shape55-45" transform="translate(474.803,113.386) rotate(90)">
+			<title>Лист.55</title>
+			<path d="M0 170.08 L17.79 170.08" class="st1"/>
+		</g>
+	</g>
+</svg>

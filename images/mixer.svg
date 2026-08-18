@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Создано Microsoft Visio, экспорт SVG mixer.svg Page-16 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="4.33071in" height="4.13386in" viewBox="0 0 311.811 297.638" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st13">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#eaeff5;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st2 {fill:#000000;font-family:Calibri;font-size:1.5em}
+		.st3 {marker-end:url(#mrkr13-9);stroke:#00b050;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st4 {fill:#00b050;fill-opacity:1;stroke:#00b050;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st5 {fill:#000000;font-family:Calibri;font-size:1.00001em}
+		.st6 {font-size:1em}
+		.st7 {marker-end:url(#mrkr13-20);stroke:#c00000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st8 {fill:#c00000;fill-opacity:1;stroke:#c00000;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st9 {marker-end:url(#mrkr13-27);stroke:#3f3f3f;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st10 {fill:#3f3f3f;fill-opacity:1;stroke:#3f3f3f;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st11 {fill:none;stroke:#a5a5a5;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st12 {fill:#a5a5a5;font-family:Calibri;font-size:1.16666em}
+		.st13 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr13-9" class="st4" refX="-10.56" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-3.52,-3.52) "/>
+		</marker>
+		<marker id="mrkr13-20" class="st8" refX="-10.56" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-3.52,-3.52) "/>
+		</marker>
+		<marker id="mrkr13-27" class="st10" refX="-10.56" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-3.52,-3.52) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>Mixer</title>
+		<g id="shape1-1" transform="translate(99.2126,-170.079)">
+			<title>Скругленный прямоугольник.0</title>
+			<desc>Mixer</desc>
+			<path d="M106.3 297.64 A7.08667 7.08667 -180 0 0 113.39 290.55 L113.39 219.69 A7.08667 7.08667 -180 0 0 106.3 212.6 L7.09
+						 212.6 A7.08667 7.08667 -180 0 0 0 219.69 L0 290.55 A7.08667 7.08667 -180 0 0 7.09 297.64 L106.3 297.64 Z"
+					class="st1"/>
+			<text x="35.42" y="260.52" class="st2">Mixer</text>		</g>
+		<g id="shape2-4" transform="translate(297.638,382.677) rotate(180)">
+			<title>Лист.2</title>
+			<desc>opcodes</desc>
+			<path d="M0 297.64 L74.48 297.64" class="st3"/>
+			<text x="-50.83" y="-301.92" transform="rotate(180)" class="st5">opcodes</text>		</g>
+		<g id="shape3-11" transform="translate(99.2126,-42.5197)">
+			<title>Скругленный прямоугольник.3</title>
+			<desc>Processing devices</desc>
+			<path d="M106.3 297.64 A7.08667 7.08667 -180 0 0 113.39 290.55 L113.39 219.69 A7.08667 7.08667 -180 0 0 106.3 212.6 L7.09
+						 212.6 A7.08667 7.08667 -180 0 0 0 219.69 L0 290.55 A7.08667 7.08667 -180 0 0 7.09 297.64 L106.3 297.64 Z"
+					class="st1"/>
+			<text x="17.81" y="249.72" class="st2">Processing <tspan x="29.55" dy="1.2em" class="st6">devices</tspan></text>		</g>
+		<g id="shape4-15" transform="translate(453.543,127.559) rotate(90)">
+			<title>Лист.4</title>
+			<desc>instructions</desc>
+			<path d="M0 297.64 L31.96 297.64" class="st7"/>
+			<text x="-293.28" y="23.44" transform="rotate(-90)" class="st5">instructions</text>		</g>
+		<g id="shape6-22" transform="translate(14.1732,-212.598)">
+			<title>Лист.6</title>
+			<desc>data</desc>
+			<path d="M0 297.64 L74.48 297.64" class="st9"/>
+			<text x="17.44" y="292.73" class="st5">data</text>		</g>
+		<g id="shape11-29" transform="translate(70.8661,-14.1732)">
+			<title>Скругленный прямоугольник.8</title>
+			<desc>Data processor</desc>
+			<path d="M162.99 297.64 A7.08667 7.08667 -180 0 0 170.08 290.55 L170.08 35.43 A7.08667 7.08667 -180 0 0 162.99 28.35
+						 L7.09 28.35 A7.08667 7.08667 -180 0 0 0 35.43 L0 290.55 A7.08667 7.08667 -180 0 0 7.09 297.64 L162.99 297.64
+						 Z" class="st11"/>
+			<text x="4" y="40.95" class="st12">Data processor</text>		</g>
+	</g>
+</svg>

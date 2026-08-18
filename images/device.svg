@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Создано Microsoft Visio, экспорт SVG device.svg Device -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="4.33071in" height="1.9685in" viewBox="0 0 311.811 141.732" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st9">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {marker-end:url(#mrkr13-6);stroke:#c00000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st2 {fill:#c00000;fill-opacity:1;stroke:#c00000;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st3 {fill:#eaeff5;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st4 {fill:#000000;font-family:Calibri;font-size:1.5em}
+		.st5 {marker-end:url(#mrkr13-18);stroke:#3f3f3f;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st6 {fill:#3f3f3f;fill-opacity:1;stroke:#3f3f3f;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st7 {fill:none;stroke:#a5a5a5;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st8 {fill:#a5a5a5;font-family:Calibri;font-size:1.16666em}
+		.st9 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr13-6" class="st2" refX="-10.56" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-3.52,-3.52) "/>
+		</marker>
+		<marker id="mrkr13-18" class="st6" refX="-10.56" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-3.52,-3.52) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>Device</title>
+		<g id="shape1-1" transform="translate(14.1732,-70.8662)">
+			<title>Лист.1</title>
+			<path d="M0 141.73 L46.13 141.73" class="st1"/>
+		</g>
+		<g id="shape4-7" transform="translate(70.8662,-42.5197)">
+			<title>Скругленный прямоугольник.4</title>
+			<desc>Gate</desc>
+			<path d="M49.61 141.73 A7.08667 7.08667 -180 0 0 56.69 134.65 L56.69 92.13 A7.08667 7.08667 -180 0 0 49.61 85.04 L7.09
+						 85.04 A7.08667 7.08667 -180 0 0 -0 92.13 L0 134.65 A7.08667 7.08667 -180 0 0 7.09 141.73 L49.61 141.73 Z"
+					class="st3"/>
+			<text x="10.86" y="118.79" class="st4">Gate</text>		</g>
+		<g id="shape5-10" transform="translate(155.906,-42.5197)">
+			<title>Скругленный прямоугольник.5</title>
+			<desc>Worker</desc>
+			<path d="M77.95 141.73 A7.08667 7.08667 -180 0 0 85.04 134.65 L85.04 92.13 A7.08667 7.08667 -180 0 0 77.95 85.04 L7.09
+						 85.04 A7.08667 7.08667 -180 0 0 -0 92.13 L0 134.65 A7.08667 7.08667 -180 0 0 7.09 141.73 L77.95 141.73 Z"
+					class="st3"/>
+			<text x="14.92" y="118.79" class="st4">Worker</text>		</g>
+		<g id="shape6-13" transform="translate(240.945,-70.8662)">
+			<title>Лист.6</title>
+			<path d="M0 141.73 L46.13 141.73" class="st5"/>
+		</g>
+		<g id="shape7-19" transform="translate(127.559,-70.8662)">
+			<title>Лист.7</title>
+			<path d="M0 141.73 L17.79 141.73" class="st1"/>
+		</g>
+		<g id="shape8-24" transform="translate(42.5197,-14.1732)">
+			<title>Скругленный прямоугольник.8</title>
+			<desc>Device</desc>
+			<path d="M219.69 141.73 A7.08667 7.08667 -180 0 0 226.77 134.65 L226.77 35.43 A7.08667 7.08667 -180 0 0 219.69 28.35
+						 L7.09 28.35 A7.08667 7.08667 -180 0 0 -0 35.43 L0 134.65 A7.08667 7.08667 -180 0 0 7.09 141.73 L219.69 141.73
+						 Z" class="st7"/>
+			<text x="4" y="40.95" class="st8">Device</text>		</g>
+	</g>
+</svg>

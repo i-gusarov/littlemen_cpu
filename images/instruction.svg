@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Создано Microsoft Visio, экспорт SVG Instruction.svg Instruction -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="3.70079in" height="1.33858in" viewBox="0 0 266.457 96.378" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st5">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:Calibri;font-size:1.5em}
+		.st3 {fill:#cafebe;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st4 {fill:#f2f2f2;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g>
+		<title>Instruction</title>
+		<g id="shape2-1" transform="translate(202.677,75.1181) rotate(90) scale(-1,1)">
+			<title>Боковая фигурная скобка</title>
+			<desc>Instruction</desc>
+			<path d="M0 89.29 L0 90.99 A5.38574 5.38574 -180 0 0 5.39 96.38 L22.96 96.38 A5.38574 5.38574 0 0 1 28.35 101.76 A5.38574
+						 5.38574 0 0 1 33.73 96.38 L51.31 96.38 A5.38574 5.38574 -180 0 0 56.69 90.99 L56.69 89.29" class="st1"/>
+			<text x="-185.28" y="-22.95" transform="rotate(90) scale(-1,1)" class="st2">Instruction</text>		</g>
+		<g id="shape3-5" transform="translate(127.559,-49.6063)">
+			<title>Прямоугольник.158</title>
+			<desc>Opcode</desc>
+			<rect x="0" y="68.0315" width="113.386" height="28.3465" class="st3"/>
+			<text x="28.25" y="87.6" class="st2">Opcode</text>		</g>
+		<g id="shape4-8" transform="translate(127.559,-21.2598)">
+			<title>Прямоугольник.4</title>
+			<desc>Argument</desc>
+			<rect x="0" y="68.0315" width="113.386" height="28.3465" class="st4"/>
+			<text x="19.97" y="87.6" class="st2">Argument</text>		</g>
+	</g>
+</svg>

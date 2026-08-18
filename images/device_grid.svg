@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Создано Microsoft Visio, экспорт SVG device_grid.svg Device grid -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="8.66142in" height="4.33071in" viewBox="0 0 623.622 311.811" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st10">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {marker-end:url(#mrkr13-6);stroke:#c00000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st2 {fill:#c00000;fill-opacity:1;stroke:#c00000;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st3 {fill:#000000;font-family:Calibri;font-size:1.00001em}
+		.st4 {marker-end:url(#mrkr13-13);stroke:#3f3f3f;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st5 {fill:#3f3f3f;fill-opacity:1;stroke:#3f3f3f;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st6 {stroke:#c00000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3}
+		.st7 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3}
+		.st8 {fill:#eaeff5;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st9 {fill:#000000;font-family:Calibri;font-size:1.5em}
+		.st10 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr13-6" class="st2" refX="-10.56" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-3.52,-3.52) "/>
+		</marker>
+		<marker id="mrkr13-13" class="st5" refX="-10.56" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-3.52,-3.52) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>Device grid</title>
+		<g id="shape1-1" transform="translate(616.535,14.1732) rotate(90)">
+			<title>Лист.1</title>
+			<desc>instructions</desc>
+			<path d="M0 311.81 L31.96 311.81" class="st1"/>
+			<text x="-307.46" y="23.44" transform="rotate(-90)" class="st3">instructions</text>		</g>
+		<g id="shape2-8" transform="translate(616.535,240.945) rotate(90)">
+			<title>Лист.2</title>
+			<desc>result</desc>
+			<path d="M0 311.81 L31.96 311.81" class="st4"/>
+			<text x="-304.51" y="23.44" transform="rotate(-90)" class="st3">result</text>		</g>
+		<g id="shape3-15" transform="translate(28.3465,-255.118)">
+			<title>Лист.3</title>
+			<desc>instruction bus</desc>
+			<path d="M0 311.81 L566.93 311.81" class="st6"/>
+			<text x="4" y="306.91" class="st3">instruction bus</text>		</g>
+		<g id="shape4-19" transform="translate(28.3465,-70.8661)">
+			<title>Лист.4</title>
+			<desc>data bus</desc>
+			<path d="M0 311.81 L566.93 311.81" class="st7"/>
+			<text x="4" y="323.92" class="st3">data bus</text>		</g>
+		<g id="shape5-23" transform="translate(56.6929,-212.598)">
+			<title>Скругленный прямоугольник.3</title>
+			<desc>Device 1</desc>
+			<path d="M120.47 311.81 A7.08667 7.08667 -180 0 0 127.56 304.72 L127.56 290.55 A7.08667 7.08667 -180 0 0 120.47 283.46
+						 L7.09 283.46 A7.08667 7.08667 -180 0 0 -0 290.55 L0 304.72 A7.08667 7.08667 -180 0 0 7.09 311.81 L120.47
+						 311.81 Z" class="st8"/>
+			<text x="28.68" y="303.04" class="st9">Device   1</text>		</g>
+		<g id="shape6-26" transform="translate(56.6929,396.85) rotate(180)">
+			<title>Лист.6</title>
+			<path d="M0 311.81 L17.79 311.81" class="st4"/>
+		</g>
+		<g id="shape7-31" transform="translate(212.598,396.85) rotate(180)">
+			<title>Лист.7</title>
+			<path d="M0 311.81 L17.79 311.81" class="st1"/>
+		</g>
+		<g id="shape20-36" transform="translate(524.409,56.6929) rotate(90)">
+			<title>Лист.20</title>
+			<path d="M0 311.81 L170.08 311.81" class="st6"/>
+		</g>
+		<g id="shape21-39" transform="translate(-283.465,240.945) rotate(-90)">
+			<title>Лист.21</title>
+			<path d="M0 311.81 L170.08 311.81" class="st7"/>
+		</g>
+		<g id="shape22-42" transform="translate(212.598,-226.772)">
+			<title>Лист.22</title>
+			<path d="M0 311.81 L17.79 311.81" class="st1"/>
+		</g>
+		<g id="shape23-47" transform="translate(240.945,-212.598)">
+			<title>Скругленный прямоугольник.23</title>
+			<desc>Device 4</desc>
+			<path d="M120.47 311.81 A7.08667 7.08667 -180 0 0 127.56 304.72 L127.56 290.55 A7.08667 7.08667 -180 0 0 120.47 283.46
+						 L7.09 283.46 A7.08667 7.08667 -180 0 0 -0 290.55 L0 304.72 A7.08667 7.08667 -180 0 0 7.09 311.81 L120.47
+						 311.81 Z" class="st8"/>
+			<text x="28.68" y="303.04" class="st9">Device   4</text>		</g>
+		<g id="shape24-50" transform="translate(368.504,-226.772)">
+			<title>Лист.24</title>
+			<path d="M0 311.81 L17.79 311.81" class="st4"/>
+		</g>
+		<g id="shape25-55" transform="translate(85.0394,240.945) rotate(-90)">
+			<title>Лист.25</title>
+			<path d="M0 311.81 L170.08 311.81" class="st7"/>
+		</g>
+		<g id="shape26-58" transform="translate(425.197,-212.598)">
+			<title>Скругленный прямоугольник.26</title>
+			<desc>Device 7</desc>
+			<path d="M120.47 311.81 A7.08667 7.08667 -180 0 0 127.56 304.72 L127.56 290.55 A7.08667 7.08667 -180 0 0 120.47 283.46
+						 L7.09 283.46 A7.08667 7.08667 -180 0 0 -0 290.55 L0 304.72 A7.08667 7.08667 -180 0 0 7.09 311.81 L120.47
+						 311.81 Z" class="st8"/>
+			<text x="28.68" y="303.04" class="st9">Device   7</text>		</g>
+		<g id="shape27-61" transform="translate(425.197,396.85) rotate(180)">
+			<title>Лист.27</title>
+			<path d="M0 311.81 L17.79 311.81" class="st4"/>
+		</g>
+		<g id="shape28-66" transform="translate(581.102,396.85) rotate(180)">
+			<title>Лист.28</title>
+			<path d="M0 311.81 L17.79 311.81" class="st1"/>
+		</g>
+		<g id="shape29-71" transform="translate(56.6929,-155.906)">
+			<title>Скругленный прямоугольник.29</title>
+			<desc>Device 2</desc>
+			<path d="M120.47 311.81 A7.08667 7.08667 -180 0 0 127.56 304.72 L127.56 290.55 A7.08667 7.08667 -180 0 0 120.47 283.46
+						 L7.09 283.46 A7.08667 7.08667 -180 0 0 -0 290.55 L0 304.72 A7.08667 7.08667 -180 0 0 7.09 311.81 L120.47
+						 311.81 Z" class="st8"/>
+			<text x="28.68" y="303.04" class="st9">Device   2</text>		</g>
+		<g id="shape30-74" transform="translate(56.6929,453.543) rotate(180)">
+			<title>Лист.30</title>
+			<path d="M0 311.81 L17.79 311.81" class="st4"/>
+		</g>
+		<g id="shape31-79" transform="translate(212.598,453.543) rotate(180)">
+			<title>Лист.31</title>
+			<path d="M0 311.81 L17.79 311.81" class="st1"/>
+		</g>
+		<g id="shape32-84" transform="translate(56.6929,-99.2126)">
+			<title>Скругленный прямоугольник.32</title>
+			<desc>Device 3</desc>
+			<path d="M120.47 311.81 A7.08667 7.08667 -180 0 0 127.56 304.72 L127.56 290.55 A7.08667 7.08667 -180 0 0 120.47 283.46
+						 L7.09 283.46 A7.08667 7.08667 -180 0 0 -0 290.55 L0 304.72 A7.08667 7.08667 -180 0 0 7.09 311.81 L120.47
+						 311.81 Z" class="st8"/>
+			<text x="28.68" y="303.04" class="st9">Device   3</text>		</g>
+		<g id="shape33-87" transform="translate(56.6929,510.236) rotate(180)">
+			<title>Лист.33</title>
+			<path d="M0 311.81 L17.79 311.81" class="st4"/>
+		</g>
+		<g id="shape34-92" transform="translate(212.598,510.236) rotate(180)">
+			<title>Лист.34</title>
+			<path d="M0 311.81 L17.79 311.81" class="st1"/>
+		</g>
+		<g id="shape35-97" transform="translate(212.598,-170.079)">
+			<title>Лист.35</title>
+			<path d="M0 311.81 L17.79 311.81" class="st1"/>
+		</g>
+		<g id="shape36-102" transform="translate(240.945,-155.906)">
+			<title>Скругленный прямоугольник.36</title>
+			<desc>Device 5</desc>
+			<path d="M120.47 311.81 A7.08667 7.08667 -180 0 0 127.56 304.72 L127.56 290.55 A7.08667 7.08667 -180 0 0 120.47 283.46
+						 L7.09 283.46 A7.08667 7.08667 -180 0 0 -0 290.55 L0 304.72 A7.08667 7.08667 -180 0 0 7.09 311.81 L120.47
+						 311.81 Z" class="st8"/>
+			<text x="28.68" y="303.04" class="st9">Device   5</text>		</g>
+		<g id="shape37-105" transform="translate(368.504,-170.079)">
+			<title>Лист.37</title>
+			<path d="M0 311.81 L17.79 311.81" class="st4"/>
+		</g>
+		<g id="shape38-110" transform="translate(212.598,-113.386)">
+			<title>Лист.38</title>
+			<path d="M0 311.81 L17.79 311.81" class="st1"/>
+		</g>
+		<g id="shape39-115" transform="translate(240.945,-99.2126)">
+			<title>Скругленный прямоугольник.39</title>
+			<desc>Device 6</desc>
+			<path d="M120.47 311.81 A7.08667 7.08667 -180 0 0 127.56 304.72 L127.56 290.55 A7.08667 7.08667 -180 0 0 120.47 283.46
+						 L7.09 283.46 A7.08667 7.08667 -180 0 0 -0 290.55 L0 304.72 A7.08667 7.08667 -180 0 0 7.09 311.81 L120.47
+						 311.81 Z" class="st8"/>
+			<text x="28.68" y="303.04" class="st9">Device   6</text>		</g>
+		<g id="shape40-118" transform="translate(368.504,-113.386)">
+			<title>Лист.40</title>
+			<path d="M0 311.81 L17.79 311.81" class="st4"/>
+		</g>
+		<g id="shape41-123" transform="translate(425.197,-155.906)">
+			<title>Скругленный прямоугольник.41</title>
+			<desc>Device 8</desc>
+			<path d="M120.47 311.81 A7.08667 7.08667 -180 0 0 127.56 304.72 L127.56 290.55 A7.08667 7.08667 -180 0 0 120.47 283.46
+						 L7.09 283.46 A7.08667 7.08667 -180 0 0 -0 290.55 L0 304.72 A7.08667 7.08667 -180 0 0 7.09 311.81 L120.47
+						 311.81 Z" class="st8"/>
+			<text x="28.68" y="303.04" class="st9">Device   8</text>		</g>
+		<g id="shape42-126" transform="translate(425.197,453.543) rotate(180)">
+			<title>Лист.42</title>
+			<path d="M0 311.81 L17.79 311.81" class="st4"/>
+		</g>
+		<g id="shape43-131" transform="translate(581.102,453.543) rotate(180)">
+			<title>Лист.43</title>
+			<path d="M0 311.81 L17.79 311.81" class="st1"/>
+		</g>
+		<g id="shape44-136" transform="translate(425.197,-99.2126)">
+			<title>Скругленный прямоугольник.44</title>
+			<desc>Device 9</desc>
+			<path d="M120.47 311.81 A7.08667 7.08667 -180 0 0 127.56 304.72 L127.56 290.55 A7.08667 7.08667 -180 0 0 120.47 283.46
+						 L7.09 283.46 A7.08667 7.08667 -180 0 0 -0 290.55 L0 304.72 A7.08667 7.08667 -180 0 0 7.09 311.81 L120.47
+						 311.81 Z" class="st8"/>
+			<text x="28.68" y="303.04" class="st9">Device   9</text>		</g>
+		<g id="shape45-139" transform="translate(425.197,510.236) rotate(180)">
+			<title>Лист.45</title>
+			<path d="M0 311.81 L17.79 311.81" class="st4"/>
+		</g>
+		<g id="shape46-144" transform="translate(581.102,510.236) rotate(180)">
+			<title>Лист.46</title>
+			<path d="M0 311.81 L17.79 311.81" class="st1"/>
+		</g>
+		<g id="shape47-149" transform="translate(892.913,56.6929) rotate(90)">
+			<title>Лист.47</title>
+			<path d="M0 311.81 L170.08 311.81" class="st6"/>
+		</g>
+	</g>
+</svg>

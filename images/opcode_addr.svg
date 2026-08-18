@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Создано Microsoft Visio, экспорт SVG opcode_addr.svg Opcode -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="5.90551in" height="3.70079in"
+		viewBox="0 0 425.197 266.457" xml:space="preserve" color-interpolation-filters="sRGB" class="st9">
+	<v:documentProperties v:langID="1049" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+			<v:ud v:nameU="msvConvertTheme"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#cafebe;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st2 {fill:#000000;font-family:Calibri;font-size:1.5em}
+		.st3 {baseline-shift:-32.4951%;font-size:0.649902em}
+		.st4 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st5 {fill:#000000;font-family:Calibri;font-size:0.833336em}
+		.st6 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st7 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st8 {fill:#000000;font-family:Calibri;font-size:1.99999em}
+		.st9 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="27" v:index="8" v:groupContext="foregroundPage">
+		<title>Opcode addr</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="Примечания" v:index="0"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(212.598,-170.079)">
+			<title>Прямоугольник.158</title>
+			<desc>F</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.1732" cy="252.283" width="28.35" height="28.3465"/>
+			<rect x="0" y="238.11" width="28.3465" height="28.3465" class="st1"/>
+			<text x="10.04" y="257.68" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>F</text>		</g>
+		<g id="shape2-4" v:mID="2" v:groupContext="shape" transform="translate(184.252,-170.079)">
+			<title>Прямоугольник.2</title>
+			<desc>A0</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.1732" cy="252.283" width="28.35" height="28.3465"/>
+			<rect x="0" y="238.11" width="28.3465" height="28.3465" class="st1"/>
+			<text x="6" y="257.68" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>A<tspan dy="-0.284em"
+						class="st3" v:baseFontSize="18">0</tspan></text>		</g>
+		<g id="shape3-8" v:mID="3" v:groupContext="shape" transform="translate(212.598,-198.425)">
+			<title>Прямоугольник.3</title>
+			<desc>0</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.1732" cy="259.37" width="28.35" height="14.1732"/>
+			<rect x="0" y="252.283" width="28.3465" height="14.1732" class="st4"/>
+			<text x="11.64" y="262.37" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>0</text>		</g>
+		<g id="shape4-11" v:mID="4" v:groupContext="shape" transform="translate(184.252,-198.425)">
+			<title>Прямоугольник.4</title>
+			<desc>1</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.1732" cy="259.37" width="28.35" height="14.1732"/>
+			<rect x="0" y="252.283" width="28.3465" height="14.1732" class="st4"/>
+			<text x="11.64" y="262.37" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>1</text>		</g>
+		<g id="shape5-14" v:mID="5" v:groupContext="shape" transform="translate(155.906,-198.425)">
+			<title>Прямоугольник.5</title>
+			<desc>2</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.1732" cy="259.37" width="28.35" height="14.1732"/>
+			<rect x="0" y="252.283" width="28.3465" height="14.1732" class="st4"/>
+			<text x="11.64" y="262.37" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>2</text>		</g>
+		<g id="shape6-17" v:mID="6" v:groupContext="shape" transform="translate(127.559,-198.425)">
+			<title>Прямоугольник.6</title>
+			<desc>3</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.1732" cy="259.37" width="28.35" height="14.1732"/>
+			<rect x="0" y="252.283" width="28.3465" height="14.1732" class="st4"/>
+			<text x="11.64" y="262.37" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>3</text>		</g>
+		<g id="shape7-20" v:mID="7" v:groupContext="shape" transform="translate(155.906,-170.079)">
+			<title>Прямоугольник.7</title>
+			<desc>A1</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.1732" cy="252.283" width="28.35" height="28.3465"/>
+			<rect x="0" y="238.11" width="28.3465" height="28.3465" class="st1"/>
+			<text x="6" y="257.68" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>A<tspan dy="-0.284em"
+						class="st3" v:baseFontSize="18">1</tspan></text>		</g>
+		<g id="shape8-24" v:mID="8" v:groupContext="shape" transform="translate(127.559,-170.079)">
+			<title>Прямоугольник.8</title>
+			<desc>A2</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.1732" cy="252.283" width="28.35" height="28.3465"/>
+			<rect x="0" y="238.11" width="28.3465" height="28.3465" class="st1"/>
+			<text x="6" y="257.68" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>A<tspan dy="-0.284em"
+						class="st3" v:baseFontSize="18">2</tspan></text>		</g>
+		<g id="shape9-28" v:mID="9" v:groupContext="shape" transform="translate(99.2126,-170.079)">
+			<title>Прямоугольник.9</title>
+			<desc>A3</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.1732" cy="252.283" width="28.35" height="28.3465"/>
+			<rect x="0" y="238.11" width="28.3465" height="28.3465" class="st1"/>
+			<text x="6" y="257.68" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>A<tspan dy="-0.284em"
+						class="st3" v:baseFontSize="18">3</tspan></text>		</g>
+		<g id="shape11-32" v:mID="11" v:groupContext="shape" transform="translate(42.5197,-170.079)">
+			<title>Прямоугольник.11</title>
+			<desc>A61</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.1732" cy="252.283" width="28.35" height="28.3465"/>
+			<rect x="0" y="238.11" width="28.3465" height="28.3465" class="st1"/>
+			<text x="3.04" y="257.68" class="st2" v:langID="1033"><v:paragraph v:indentLeft="-5.67" v:indentRight="-5.67"
+						v:horizAlign="1"/><v:tabList/>A<tspan dy="-0.284em" class="st3" v:baseFontSize="18">61</tspan></text>		</g>
+		<g id="shape12-36" v:mID="12" v:groupContext="shape" transform="translate(14.1732,-170.079)">
+			<title>Прямоугольник.12</title>
+			<desc>0</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.1732" cy="252.283" width="28.35" height="28.3465"/>
+			<rect x="0" y="238.11" width="28.3465" height="28.3465" class="st1"/>
+			<text x="9.61" y="257.68" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>0</text>		</g>
+		<g id="shape13-39" v:mID="13" v:groupContext="shape" transform="translate(99.2126,-198.425)">
+			<title>Прямоугольник.13</title>
+			<desc>4</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.1732" cy="259.37" width="28.35" height="14.1732"/>
+			<rect x="0" y="252.283" width="28.3465" height="14.1732" class="st4"/>
+			<text x="11.64" y="262.37" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>4</text>		</g>
+		<g id="shape14-42" v:mID="14" v:groupContext="shape" transform="translate(70.8661,-198.425)">
+			<title>Прямоугольник.14</title>
+			<desc>...</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.1732" cy="259.37" width="28.35" height="14.1732"/>
+			<rect x="0" y="252.283" width="28.3465" height="14.1732" class="st4"/>
+			<text x="10.39" y="262.37" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>...</text>		</g>
+		<g id="shape15-45" v:mID="15" v:groupContext="shape" transform="translate(42.5197,-198.425)">
+			<title>Прямоугольник.15</title>
+			<desc>62</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.1732" cy="259.37" width="28.35" height="14.1732"/>
+			<rect x="0" y="252.283" width="28.3465" height="14.1732" class="st4"/>
+			<text x="9.1" y="262.37" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>62</text>		</g>
+		<g id="shape16-48" v:mID="16" v:groupContext="shape" transform="translate(14.1732,-198.425)">
+			<title>Прямоугольник.16</title>
+			<desc>63</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.1732" cy="259.37" width="28.35" height="14.1732"/>
+			<rect x="0" y="252.283" width="28.3465" height="14.1732" class="st4"/>
+			<text x="9.1" y="262.37" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>63</text>		</g>
+		<g id="shape17-51" v:mID="17" v:groupContext="shape" transform="translate(70.8661,-170.079)">
+			<title>Прямоугольник.17</title>
+			<desc>...</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.1732" cy="252.283" width="28.35" height="28.3465"/>
+			<rect x="0" y="238.11" width="28.3465" height="28.3465" class="st4"/>
+			<text x="10.39" y="255.28" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>...</text>		</g>
+		<g id="shape33-54" v:mID="33" v:groupContext="shape" transform="translate(144.567,153.699) rotate(-90)">
+			<title>Боковая коленчатая выноска.33</title>
+			<desc>Fetch argument</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.8018" cy="188.504" width="155.91" height="29.6036" transform="rotate(90)"/>
+			<path d="M43.15 82.2 L14.8 82.2 L14.8 110.55" class="st6"/>
+			<text x="114.55" y="-9.4" transform="rotate(90)" class="st2" v:langID="1033"><v:paragraph/><v:tabList/>Fetch argument</text>		</g>
+		<g id="shape19-58" v:mID="19" v:groupContext="shape" transform="translate(219.685,-155.906)">
+			<title>Лист.19</title>
+			<path d="M0 266.46 L14.17 266.46" class="st6"/>
+		</g>
+		<g id="shape20-61" v:mID="20" v:groupContext="shape" transform="translate(49.6063,-155.906)">
+			<title>Лист.20</title>
+			<path d="M0 266.46 L155.91 266.46" class="st6"/>
+		</g>
+		<g id="shape21-64" v:mID="21" v:groupContext="shape" transform="translate(21.2598,-155.906)">
+			<title>Лист.21</title>
+			<path d="M0 266.46 L14.17 266.46" class="st6"/>
+		</g>
+		<g id="shape32-67" v:mID="32" v:groupContext="shape" transform="translate(144.567,203.306) rotate(-90)">
+			<title>Боковая коленчатая выноска</title>
+			<desc>Device address</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.8018" cy="188.504" width="155.91" height="29.6036" transform="rotate(90)"/>
+			<path d="M92.75 -17.01 L14.8 -17.01 L14.8 110.55" class="st6"/>
+			<text x="114.55" y="-9.4" transform="rotate(90)" class="st2" v:langID="1033"><v:paragraph/><v:tabList/>Device address</text>		</g>
+		<g id="shape34-71" v:mID="34" v:groupContext="shape" transform="translate(144.567,252.912) rotate(-90)">
+			<title>Боковая коленчатая выноска.34</title>
+			<desc>Sign bit, always 0</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.8018" cy="188.504" width="155.91" height="29.6036" transform="rotate(90)"/>
+			<path d="M142.36 -116.22 L14.8 -116.22 L14.8 110.55" class="st6"/>
+			<text x="114.55" y="-9.4" transform="rotate(90)" class="st2" v:langID="1033"><v:paragraph/><v:tabList/>Sign bit, always 0</text>		</g>
+		<g id="shape24-75" v:mID="24" v:groupContext="shape" v:layerMember="0" transform="translate(14.1732,-226.772)">
+			<title>Текст (12 пт)</title>
+			<desc>Opcode bits layout</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.49212598425197):24"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.098425196850394):24"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="AutoWidth" v:prompt="" v:val="VT0(2.7559079772749):1"/>
+				<v:ud v:nameU="WidthIncrement" v:prompt="" v:val="VT0(0.19685056980535):1"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="191.339" cy="252.283" width="382.68" height="28.3465"/>
+			<rect x="0" y="238.11" width="382.677" height="28.3465" class="st7"/>
+			<text x="99.63" y="259.48" class="st8" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Opcode bits layout</text>		</g>
+	</g>
+</svg>

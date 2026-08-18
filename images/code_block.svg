@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Создано Microsoft Visio, экспорт SVG code_block.svg Code blocks -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="2.3622in" height="3.70079in" viewBox="0 0 170.079 266.457" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st8">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {marker-start:url(#mrkr13-6);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st2 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st3 {fill:#000000;font-family:Calibri;font-size:1.00001em}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st5 {fill:#ebf1df;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st6 {fill:#000000;font-family:Calibri;font-size:1.5em}
+		.st7 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st8 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr13-6" class="st2" refX="10.2" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(3.52) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>Code block</title>
+		<g id="shape2-1" transform="translate(-181.417,82.2047) rotate(-90)">
+			<title>Лист.2</title>
+			<desc>entry</desc>
+			<path d="M10.2 266.46 L10.56 266.46 L56.69 266.46" class="st1"/>
+			<text x="253.5" y="-60.18" transform="rotate(90)" class="st3">entry</text>		</g>
+		<g id="shape3-8" transform="translate(-223.937,223.937) rotate(-90)">
+			<title>Лист.3</title>
+			<path d="M10.2 266.46 L10.56 266.46 L56.69 266.46" class="st1"/>
+		</g>
+		<g id="shape4-13" transform="translate(-195.591,223.937) rotate(-90)">
+			<title>Лист.4</title>
+			<path d="M10.2 266.46 L10.56 266.46 L56.69 266.46" class="st1"/>
+		</g>
+		<g id="shape5-18" transform="translate(-167.244,223.937) rotate(-90)">
+			<title>Лист.5</title>
+			<path d="M10.2 266.46 L10.56 266.46 L56.69 266.46" class="st1"/>
+		</g>
+		<g id="shape6-23" transform="translate(-138.898,223.937) rotate(-90)">
+			<title>Лист.6</title>
+			<path d="M10.2 266.46 L10.56 266.46 L56.69 266.46" class="st1"/>
+		</g>
+		<g id="shape7-28" transform="translate(141.732,-35.4331) scale(-1,1)">
+			<title>Боковая фигурная скобка</title>
+			<desc>exits</desc>
+			<path d="M0 259.37 L0 261.07 A5.38574 5.38574 -180 0 0 5.39 266.46 L51.31 266.46 A5.38574 5.38574 0 0 1 56.69 271.84
+						 A5.38574 5.38574 0 0 1 62.08 266.46 L108 266.46 A5.38574 5.38574 -180 0 0 113.39 261.07 L113.39 259.37"
+					class="st4"/>
+			<text x="-68.01" y="286.64" transform="scale(-1,1)" class="st3">exits</text>		</g>
+		<g id="shape1-32" transform="translate(28.3465,-99.2126)">
+			<title>Прямоугольник</title>
+			<desc>Code block</desc>
+			<rect x="0" y="181.417" width="113.386" height="85.0394" class="st5"/>
+			<text x="16.47" y="229.34" class="st6">Code block</text>		</g>
+		<g id="shape8-35" transform="translate(28.3465,-79.3701)">
+			<title>Текст (12 пт)</title>
+			<desc>0</desc>
+			<rect x="0" y="252.283" width="14.1732" height="14.1732" class="st7"/>
+			<text x="4.05" y="262.97" class="st3">0</text>		</g>
+		<g id="shape9-38" transform="translate(56.6929,-79.3701)">
+			<title>Текст (12 пт).9</title>
+			<desc>1</desc>
+			<rect x="0" y="252.283" width="14.1732" height="14.1732" class="st7"/>
+			<text x="4.05" y="262.97" class="st3">1</text>		</g>
+		<g id="shape10-41" transform="translate(85.0394,-79.3701)">
+			<title>Текст (12 пт).10</title>
+			<desc>2</desc>
+			<rect x="0" y="252.283" width="14.1732" height="14.1732" class="st7"/>
+			<text x="4.05" y="262.97" class="st3">2</text>		</g>
+		<g id="shape11-44" transform="translate(113.386,-79.3701)">
+			<title>Текст (12 пт).11</title>
+			<desc>3</desc>
+			<rect x="0" y="252.283" width="14.1732" height="14.1732" class="st7"/>
+			<text x="4.05" y="262.97" class="st3">3</text>		</g>
+	</g>
+</svg>

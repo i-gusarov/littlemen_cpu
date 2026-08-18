@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Создано Microsoft Visio, экспорт SVG rom.svg ROM 1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="8.07087in" height="4.33071in" viewBox="0 0 581.102 311.811" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st15">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {stroke:#00b0f0;stroke-linecap:round;stroke-linejoin:round;stroke-width:3}
+		.st2 {fill:#000000;font-family:Calibri;font-size:1.00001em}
+		.st3 {stroke:#ea700d;stroke-linecap:round;stroke-linejoin:round;stroke-width:3}
+		.st4 {fill:#eaeff5;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st5 {fill:#000000;font-family:Calibri;font-size:1.5em}
+		.st6 {marker-end:url(#mrkr13-17);stroke:#ea700d;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st7 {fill:#ea700d;fill-opacity:1;stroke:#ea700d;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st8 {marker-end:url(#mrkr13-23);stroke:#00b0f0;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st9 {fill:#00b0f0;fill-opacity:1;stroke:#00b0f0;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st10 {marker-end:url(#mrkr13-43);stroke:#00b050;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st11 {fill:#00b050;fill-opacity:1;stroke:#00b050;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st12 {stroke:#00b050;stroke-linecap:round;stroke-linejoin:round;stroke-width:3}
+		.st13 {fill:none;stroke:#a5a5a5;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st14 {fill:#a5a5a5;font-family:Calibri;font-size:1.16666em}
+		.st15 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr13-17" class="st7" refX="-10.56" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-3.52,-3.52) "/>
+		</marker>
+		<marker id="mrkr13-23" class="st9" refX="-10.56" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-3.52,-3.52) "/>
+		</marker>
+		<marker id="mrkr13-43" class="st11" refX="-10.56" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-3.52,-3.52) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>ROM</title>
+		<g id="shape3-1" transform="translate(14.1732,-255.118)">
+			<title>Лист.3</title>
+			<desc>address bus</desc>
+			<path d="M0 311.81 L524.41 311.81" class="st1"/>
+			<text x="4" y="306.91" class="st2">address bus</text>		</g>
+		<g id="shape4-5" transform="translate(14.1732,-70.8661)">
+			<title>Лист.4</title>
+			<desc>branching opcodes</desc>
+			<path d="M0 311.81 L311.81 311.81" class="st3"/>
+			<text x="4" y="323.92" class="st2">branching opcodes</text>		</g>
+		<g id="shape5-9" transform="translate(141.732,-212.598)">
+			<title>Скругленный прямоугольник.3</title>
+			<desc>Branching opcodes 1</desc>
+			<path d="M177.17 311.81 A7.08667 7.08667 -180 0 0 184.25 304.72 L184.25 290.55 A7.08667 7.08667 -180 0 0 177.17 283.46
+						 L7.09 283.46 A7.08667 7.08667 -180 0 0 -0 290.55 L0 304.72 A7.08667 7.08667 -180 0 0 7.09 311.81 L177.17
+						 311.81 Z" class="st4"/>
+			<text x="14.07" y="303.04" class="st5">Branching opcodes  1</text>		</g>
+		<g id="shape6-12" transform="translate(141.732,396.85) rotate(180)">
+			<title>Лист.6</title>
+			<path d="M0 311.81 L17.79 311.81" class="st6"/>
+		</g>
+		<g id="shape7-18" transform="translate(354.331,396.85) rotate(180)">
+			<title>Лист.7</title>
+			<path d="M0 311.81 L17.79 311.81" class="st8"/>
+		</g>
+		<g id="shape20-24" transform="translate(666.142,56.6929) rotate(90)">
+			<title>Лист.20</title>
+			<path d="M0 311.81 L170.08 311.81" class="st1"/>
+		</g>
+		<g id="shape21-27" transform="translate(-198.425,240.945) rotate(-90)">
+			<title>Лист.21</title>
+			<path d="M0 311.81 L170.08 311.81" class="st3"/>
+		</g>
+		<g id="shape22-30" transform="translate(354.331,-226.772)">
+			<title>Лист.22</title>
+			<path d="M0 311.81 L17.79 311.81" class="st8"/>
+		</g>
+		<g id="shape23-35" transform="translate(382.677,-212.598)">
+			<title>Скругленный прямоугольник.23</title>
+			<desc>Data opcodes 1</desc>
+			<path d="M120.47 311.81 A7.08667 7.08667 -180 0 0 127.56 304.72 L127.56 290.55 A7.08667 7.08667 -180 0 0 120.47 283.46
+						 L7.09 283.46 A7.08667 7.08667 -180 0 0 -0 290.55 L0 304.72 A7.08667 7.08667 -180 0 0 7.09 311.81 L120.47
+						 311.81 Z" class="st4"/>
+			<text x="7.22" y="303.04" class="st5">Data opcodes 1</text>		</g>
+		<g id="shape24-38" transform="translate(510.236,-226.772)">
+			<title>Лист.24</title>
+			<path d="M0 311.81 L17.79 311.81" class="st10"/>
+		</g>
+		<g id="shape25-44" transform="translate(226.772,269.291) rotate(-90)">
+			<title>Лист.25</title>
+			<path d="M0 311.81 L198.43 311.81" class="st12"/>
+		</g>
+		<g id="shape29-47" transform="translate(141.732,-155.906)">
+			<title>Скругленный прямоугольник.29</title>
+			<desc>Branching opcodes 2</desc>
+			<path d="M177.17 311.81 A7.08667 7.08667 -180 0 0 184.25 304.72 L184.25 290.55 A7.08667 7.08667 -180 0 0 177.17 283.46
+						 L7.09 283.46 A7.08667 7.08667 -180 0 0 -0 290.55 L0 304.72 A7.08667 7.08667 -180 0 0 7.09 311.81 L177.17
+						 311.81 Z" class="st4"/>
+			<text x="14.07" y="303.04" class="st5">Branching opcodes  2</text>		</g>
+		<g id="shape30-50" transform="translate(141.732,453.543) rotate(180)">
+			<title>Лист.30</title>
+			<path d="M0 311.81 L17.79 311.81" class="st6"/>
+		</g>
+		<g id="shape31-55" transform="translate(354.331,453.543) rotate(180)">
+			<title>Лист.31</title>
+			<path d="M0 311.81 L17.79 311.81" class="st8"/>
+		</g>
+		<g id="shape32-60" transform="translate(141.732,-99.2126)">
+			<title>Скругленный прямоугольник.32</title>
+			<desc>Branching opcodes 3</desc>
+			<path d="M177.17 311.81 A7.08667 7.08667 -180 0 0 184.25 304.72 L184.25 290.55 A7.08667 7.08667 -180 0 0 177.17 283.46
+						 L7.09 283.46 A7.08667 7.08667 -180 0 0 -0 290.55 L0 304.72 A7.08667 7.08667 -180 0 0 7.09 311.81 L177.17
+						 311.81 Z" class="st4"/>
+			<text x="14.07" y="303.04" class="st5">Branching opcodes  3</text>		</g>
+		<g id="shape33-63" transform="translate(85.0394,581.102) rotate(180)">
+			<title>Лист.33</title>
+			<path d="M0 311.81 L17.79 311.81" class="st10"/>
+		</g>
+		<g id="shape34-68" transform="translate(354.331,510.236) rotate(180)">
+			<title>Лист.34</title>
+			<path d="M0 311.81 L17.79 311.81" class="st8"/>
+		</g>
+		<g id="shape35-73" transform="translate(354.331,-170.079)">
+			<title>Лист.35</title>
+			<path d="M0 311.81 L17.79 311.81" class="st8"/>
+		</g>
+		<g id="shape36-78" transform="translate(382.677,-155.906)">
+			<title>Скругленный прямоугольник.36</title>
+			<desc>Data opcodes 2</desc>
+			<path d="M120.47 311.81 A7.08667 7.08667 -180 0 0 127.56 304.72 L127.56 290.55 A7.08667 7.08667 -180 0 0 120.47 283.46
+						 L7.09 283.46 A7.08667 7.08667 -180 0 0 -0 290.55 L0 304.72 A7.08667 7.08667 -180 0 0 7.09 311.81 L120.47
+						 311.81 Z" class="st4"/>
+			<text x="7.22" y="303.04" class="st5">Data opcodes 2</text>		</g>
+		<g id="shape37-81" transform="translate(510.236,-170.079)">
+			<title>Лист.37</title>
+			<path d="M0 311.81 L17.79 311.81" class="st10"/>
+		</g>
+		<g id="shape38-86" transform="translate(354.331,-113.386)">
+			<title>Лист.38</title>
+			<path d="M0 311.81 L17.79 311.81" class="st8"/>
+		</g>
+		<g id="shape39-91" transform="translate(382.677,-99.2126)">
+			<title>Скругленный прямоугольник.39</title>
+			<desc>Data opcodes 3</desc>
+			<path d="M120.47 311.81 A7.08667 7.08667 -180 0 0 127.56 304.72 L127.56 290.55 A7.08667 7.08667 -180 0 0 120.47 283.46
+						 L7.09 283.46 A7.08667 7.08667 -180 0 0 -0 290.55 L0 304.72 A7.08667 7.08667 -180 0 0 7.09 311.81 L120.47
+						 311.81 Z" class="st4"/>
+			<text x="7.22" y="303.04" class="st5">Data opcodes 3</text>		</g>
+		<g id="shape40-94" transform="translate(510.236,-113.386)">
+			<title>Лист.40</title>
+			<path d="M0 311.81 L17.79 311.81" class="st10"/>
+		</g>
+		<g id="shape48-99" transform="translate(14.1732,-42.5197)">
+			<title>Лист.48</title>
+			<desc>branching opcodes</desc>
+			<path d="M0 311.81 L524.41 311.81" class="st12"/>
+			<text x="4" y="323.92" class="st2">branching opcodes</text>		</g>
+		<g id="shape49-103" transform="translate(56.6929,-255.118)">
+			<title>Лист.49</title>
+			<path d="M0 311.81 L3.61 311.81" class="st8"/>
+		</g>
+		<g id="shape50-108" transform="translate(85.0394,552.756) rotate(180)">
+			<title>Лист.50</title>
+			<path d="M0 311.81 L17.79 311.81" class="st6"/>
+		</g>
+		<g id="shape51-113" transform="translate(85.0394,-14.1732)">
+			<title>Скругленный прямоугольник.8</title>
+			<desc>ROM</desc>
+			<path d="M474.8 311.81 A7.08667 7.08667 -180 0 0 481.89 304.72 L481.89 49.61 A7.08667 7.08667 -180 0 0 474.8 42.52 L7.09
+						 42.52 A7.08667 7.08667 -180 0 0 0 49.61 L0 304.72 A7.08667 7.08667 -180 0 0 7.09 311.81 L474.8 311.81 Z"
+					class="st13"/>
+			<text x="4" y="55.12" class="st14">ROM</text>		</g>
+	</g>
+</svg>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Создано Microsoft Visio, экспорт SVG top_level.svg Top level -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="5.51181in" height="1.9685in" viewBox="0 0 396.85 141.732" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st7">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#eaeff5;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st2 {fill:#000000;font-family:Calibri;font-size:1.5em}
+		.st3 {font-size:1em}
+		.st4 {marker-start:url(#mrkr13-14);stroke:#00b050;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st5 {fill:#00b050;fill-opacity:1;stroke:#00b050;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st6 {fill:#000000;font-family:Calibri;font-size:1.00001em}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr13-14" class="st5" refX="10.2" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(3.52) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>Top level</title>
+		<g id="shape4-1" transform="translate(28.3465,-28.3465)">
+			<title>Скругленный прямоугольник.0</title>
+			<desc>Data processor</desc>
+			<path d="M106.3 141.73 A7.08667 7.08667 -180 0 0 113.39 134.65 L113.39 63.78 A7.08667 7.08667 -180 0 0 106.3 56.69 L7.09
+						 56.69 A7.08667 7.08667 -180 0 0 0 63.78 L0 134.65 A7.08667 7.08667 -180 0 0 7.09 141.73 L106.3 141.73 Z"
+					class="st1"/>
+			<text x="39.52" y="93.81" class="st2">Data <tspan x="20.87" dy="1.2em" class="st3">processor</tspan></text>		</g>
+		<g id="shape5-5" transform="translate(255.118,-28.3465)">
+			<title>Скругленный прямоугольник.5</title>
+			<desc>Program source</desc>
+			<path d="M106.3 141.73 A7.08667 7.08667 -180 0 0 113.39 134.65 L113.39 63.78 A7.08667 7.08667 -180 0 0 106.3 56.69 L7.09
+						 56.69 A7.08667 7.08667 -180 0 0 0 63.78 L0 134.65 A7.08667 7.08667 -180 0 0 7.09 141.73 L106.3 141.73 Z"
+					class="st1"/>
+			<text x="25.29" y="93.81" class="st2">Program <tspan x="32.28" dy="1.2em" class="st3">source</tspan></text>		</g>
+		<g id="shape6-9" transform="translate(141.732,-70.8661)">
+			<title>Лист.6</title>
+			<desc>opcodes</desc>
+			<path d="M10.2 141.73 L10.56 141.73 L113.39 141.73" class="st4"/>
+			<text x="36.19" y="138.25" class="st6">opcodes</text>		</g>
+	</g>
+</svg>
