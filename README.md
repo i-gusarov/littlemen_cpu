@@ -1,5 +1,7 @@
 # General purpose CPU powered by littlemen
 
+![cpu.jpg](images/cpu.jpg?fileId=85247#mimetype=image%2Fjpeg&hasPreview=true)
+
 The idea of this particular design has only occured to me once the [2026 ICFP contest](https://icfpcontest2026.com) was over, so this isn't a contest writeup per se. This article is more like a followup research on how much of desktop CPU features can be achieved with those little guys. The implementation is at a proof-of-concept level, lacking certain flexibility and commercial-grade tools.
 
 # Design philosophy
