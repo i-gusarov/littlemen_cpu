@@ -1,0 +1,223 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+         Instruction set                                               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Definitions:
+`res`      - First value from the priority result queue, if it has one.
+             Otherwise first value from the data bus queue.
+             Otherwise wait for a value to appear on the data bus.
+             For even opcodes `res` is always 0.
+             For each odd opcode `res` is evaluated only once,
+             before any other effect of the opcode.
+             The value is removed from the respective queue.
+
+`post(x)`  - Post value `x` to the end of priority result queue.
+             ALU always posts only to that queue.
+
+`later(x)` - Post value `x` to the end of data bus queue.
+             Only bus opcodes and virtual memory opcodes post to that queue.
+             Bus devices may take several cycles to calculate the value
+             and send it to the data bus.
+             Posted value NEVER reaches the data processing core fast enough
+             to be picked by the next op, it always arrives a few cycles later.
+             If the next op needs `res`, it may pick the value from priority
+             queue or block, see description of `res`.
+
+`br(x, n)` - Send values `x` and `n` to the branching core.
+             Value `x` will be used `n` times to decide
+             which branch to take after the current code block.
+
+Expressions shown as instruction effect are in C++ notation.
+For example, "~" is bitwise NOT.
+
+# --------------------------
+#   ALU opcodes, 0000-0511
+# --------------------------
+# See "First bus opcode" box in the annotated CPU schematic.
+
+-----+----------------+---------------------------+-----------------------------------------------------------------+
+ Op  | Syntax         | Effect                    | Description                                                     |
+
+0000 - ----           #                           # Sync marker for branching core. DON'T USE.
+                      #                           # Compiler adds this instruction automatically.
+                                                                     
+0001 - drop           # (void)res;                # Discard the result.
+
+0003 - dup2           # post(res); post(res);     # Post two copies of the result.
+0005 - dup3           # post(res); post(res); post(res);
+0007 - dup4           # post(res); post(res); post(res); post(res);
+                                                          
+0002 - last           # post(res_history[0]);     # Post the result consumed by the last odd opcode.
+0004 - last2          # post(res_history[1]);     # Post the result consumed by the one-before-last odd opcode.
+0006 - last3          # post(res_history[2]);                                          
+0008 - last4          # post(res_history[3]);        
+                                                                     
+0020 - ld   R0        # post(R0);                 # Get value of ALU register R0.
+0021 - st   R0        # R0 = res;                 # Set value of ALU register R0.               
+0022 - ld   R1                                                       
+0023 - st   R1                                                       
+0024 - ld   R2                                                       
+0025 - st   R2                                                       
+0026 - ld   R3                                                       
+0027 - st   R3                                                       
+0028 - ld   R4                                                       
+0029 - st   R4                                                       
+                                                                     
+0061 - neg            # post(-res);               # Alter the sign of the result.
+0063 - inc            # post(res + 1);            # Increment the result.
+0065 - dec            # post(res - 1);            # Decrement the result.
+                                                                     
+0081 - st   Radd      # Radd = res;               # Special register for addition.
+0083 - add  res,Radd  # post(res + Radd);                                               
+    
+0085 - st   Rsub      # Rsub = res;               # Special register for subtraction.
+0087 - sub  res,Rsub  # post(res - Rsub);
+0089 - sub  Rsub,res  # post(Rsub - res);                                               
+    
+0091 - st   Rmul      # Rmul = res;               # Special register for multiplication.
+0093 - mul  res,Rmul  # post(res * Rmul);
+     
+0095 - st   Rdiv      # Rdiv = res;               # Special register for division.             
+0097 - div  res,Rdiv  # post(res / Rdiv);
+0099 - div  Rdiv,res  # post(Rdiv / res);
+    
+0101 - st   Rmod      # Rmod = res;               # Special register for modulo.                  
+0103 - mod  res,Rmod  # post(res % Rmod);             
+0105 - mod  Rmod,res  # post(Rmod % res);             
+                                                       
+0107 - st   Rsar      # Rsar = res;               # Special register for right shift.          
+0109 - sar  res,Rsar  # post(res >> Rsar);        # Arithmetic sign is preserved.
+0111 - sar  Rsar,res  # post(Rsar >> res);        # Arithmetic sign is preserved.
+
+0113 - st   Rsal      # Rsal = res;               # Special register for left shift.
+0115 - sal  res,Rsal  # post(res << Rsal);                                               
+0117 - sal  Rsal,res  # post(Rsal << res);                                               
+                                                      
+0151 - not            # post(~res);               # Invert every bit of the result.
+
+0153 - st   Ror       # Ror = res;                # Special register for bitwise OR.
+0155 - or   res,Ror   # post(res | Ror);
+
+0157 - st   Rand      # Rand = res;               # Special register for bitwise AND.
+0159 - and  res,Rand  # post(res & Rand);
+0161 - clm  res,Rand  # post(res & !Rand);        # Clear bits masked by `Rand` in `res`.
+
+0163 - st   Rxor      # Rxor = res;               # Special register for bitwise XOR.
+0165 - xor  res,Rxor  # post(res ^ Rxor);
+                                                                     
+0191 - sete           # post(res == 0 ? 1 : 0);   # Convert arbitrary value to boolean.
+0193 - setne          # post(res != 0 ? 1 : 0);                                         
+0195 - setgt          # post(res >  0 ? 1 : 0);                                              
+0197 - setlt          # post(res <  0 ? 1 : 0);                                               
+0199 - setge          # post(res >= 0 ? 1 : 0);                                               
+0201 - setle          # post(res <= 0 ? 1 : 0);                                               
+
+0210 - gadd           # post(Rseries_add); Rseries_add = 0;      # Get result accrued in serial add operations.
+0211 - sadd           # Rseries_add += res;                      # Add an item to serial add operation.
+                                                                      
+0212 - gmul           # post(Rseries_mul); Rseries_mul = 1;          
+0213 - smul           # Rseries_mul *= res;                          
+                                                                       
+0214 - gor            # post(Rseries_or); Rseries_or = 0;             
+0215 - sor            # Rseries_or |= res;                           
+                                                                      
+0216 - gand           # post(Rseries_and); Rseries_and = ~0;       
+0217 - sand           # Rseries_and &= res;                         
+                                                                    
+0223 - then  res      # br(res < 0 ? 0 : res > 3 ? 3 : res, 1);  # Branch to exit `res` after the current block.
+0224 - then0          # br(0, 1);                                # Branch to exit 0 after the current code block.
+0225 - then0 rpt      # if (res > 0) br(0, res);                 # Branch to exit 0, repeated `res` times.
+0226 - then1          # br(1, 1);                                      
+0227 - then1 rpt      # if (res > 0) br(1, res);                                       
+0228 - then2          # br(2, 1);                                   
+0229 - then2 rpt      # if (res > 0) br(2, res);                              
+0230 - then3          # br(3, 1);                                  
+0231 - then3 rpt      # if (res > 0) br(3, res);                    
+
+0233 - st    Rcmp     # Rcmp = res;                              # Special register for comparision.
+0235 - cmp   res,Rcmp # br(res == Rcmp ? 0 : res > Rcmp ? 1 : 2, 1);
+0237 - cmp   res,0    # br(res == 0 ? 0 : res > 0 ? 1 : 2, 1);   # Take exit 0 if equal, 1 if greater, 2 if less.
+                                                                   
+0252 - cinp           # post(std::cin.tellg());                  # Get number of values read from I-room.
+0254 - cin            # std::cin >> tmp; post(tmp);              # Read value from I-room. The program should
+                      #                                          # always consume the posted value right after `cin`!
+0255 - cout           # std::cout << res;                        # Send `res` to O-room.
+
+0256                  # Reserved for future applications.
+ ...
+0511
+
+# --------------------------
+#   Bus opcodes, 0512-2047
+# --------------------------
+                                                                    
+0513 - st    pa       # Pa = res;                                # Set base pointer for memory page A.
+0515 - st    pb       # Pb = res;                                # Set base pointer for memory page B.
+0517 - st    pc       # Pc = res;                                # Set base pointer for memory page C.
+
+0550 - pop            # later(data_stack.pop());                                          
+0551 - push           # data_stack.push(res);                                      
+                                                                     
+0600 - fbmv           # all_displays.screen = buf; buf.clear();  # Switch fb, clear next frame.         
+0601 - fbsw  res      # all_displays.screen = buf;               # Switch fb, `res` decides clear/keep.
+                      # if (!res) all_displays.buf.clear();
+0602 - fbcp           # all_displays.screen = buf;               # Switch fb, keep next frame.
+0603 - fbsw  res                                                     
+0605 - fbx   res      # all_displays.cursor_x = res;             # Set cursor X position.
+0607 - fby   res      # all_displays.cursor_y = res;             # Set cursor Y position.
+
+0609 - fbpx  res      # all_displays.buf[cursor_x, cursor_y] = res;   # Put pixel of color `res` at cursor position,
+                      # all_displays.advance(&x, &y);                 # then advance to next pixel.
+
+0611 - fbpos res      # display_32x24.cursor_x = res % 24;       # Set raw pos for 32x24 display.
+                      # display.32x24.cursor_y = res / 24;
+
+0613 - fbpos res      # display_16x16.cursor_x = res % 16;       # Set raw pos for 16x16 display.
+                      # display_16x16.cursor_y = res / 16;
+                                                                    
+0896 - immh  H        # Rimmp = (Rimmp + H) * 16;                # Accrue higher bits of immediate value,
+                      #                                          # building up bigger values digit by digit.
+ ... - immh  H        #                                          # 0 <= H < 16
+0958 - immh  H        #
+0960 - imml  L        # later(Rimmp + L); Rimmp = 0;             # Set lower bits of value from the opcode.
+ ... - imml  L        #                                          # 0 <= L < 16
+1022 - imml  L        # 
+                      # Example:
+                      #    immh  a
+                      #    immh  b
+                      #    imml  c
+                      # will post value `a*16*16 + b*16 + c` to the data bus queue.
+
+# --------------------------
+#   Page A opcodes, 2048-4095
+# --------------------------
+
+2048 - ld    pa+0000  # later(ram[Pa + 0000]);
+2049 - st    pa+0000  # ram[Pa + 0000] = res;
+2050 - ld    pa+0001  # later(ram[Pa + 0001]);
+2051 - st    pa+0001  # ram[Pa + 0001] = res;
+2052 - ld    pa+0002  # later(ram[Pa + 0002]);
+2053 - st    pa+0002  # ram[Pa + 0002] = res;
+
+# --------------------------
+#   Page B opcodes, 4096-6143
+# --------------------------
+
+4096 - ld    pb+0000  # later(ram[Pb + 0000]);
+4097 - st    pb+0000  # ram[Pb + 0000] = res;
+4098 - ld    pb+0001  # later(ram[Pb + 0001]);
+4099 - st    pb+0001  # ram[Pb + 0001] = res;
+5000 - ld    pb+0002  # later(ram[Pb + 0002]);
+5001 - st    pb+0002  # ram[Pb + 0002] = res;
+
+# --------------------------
+#   Page C opcodes, 6144-8191
+# --------------------------
+
+6144 - ld    pc+0000  # later(ram[Pc + 0000]);
+6145 - st    pc+0000  # ram[Pc + 0000] = res;
+6146 - ld    pc+0001  # later(ram[Pc + 0001]);
+6147 - st    pc+0001  # ram[Pc + 0001] = res;
+6148 - ld    pc+0002  # later(ram[Pc + 0002]);
+6149 - st    pc+0002  # ram[Pc + 0002] = res;
+
